@@ -1,0 +1,11 @@
+ <div class="d-flex align-items-center flex-column ">
+          <button type="button " class="btn btn-outline-danger active w-50 rounded-0 border-0 "> <a data-toggle="tab" href="#1">Web Design</a>
+            
+          </button>
+          <button type="button" class="btn btn-outline-danger w-50 rounded-0 border-0 text-dark"> <a data-toggle="tab" href="#2">Graphic Design</a>
+            
+          </button>
+          <button type="button" class="btn btn-outline-danger w-50 rounded-0 border-0 text-dark">
+            Campaigns
+          </button>
+            </div>
