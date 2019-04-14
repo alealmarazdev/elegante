@@ -9,3 +9,124 @@
             Campaigns
           </button>
             </div>
+
+
+
+
+
+                
+      <div class="bg-danger p-4 text-center">
+        <p class=" text-light">Contact Us: 0800 787 787</p>
+      </div>
+      <!--Google map-->
+      <section>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1459734.5702753505!2d16.91089086619977!3d48.577103681657675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssk!2ssk!4v1457640551761"
+            width="100%" height="450" frameborder="0" style="border:0"></iframe>
+        </div>
+        <!-- ----------------- -->
+        <div class="wrapper-footer">
+          <div class="footer-container p-3">
+            <div class="w-100 footer-bottom ">
+              <img class="icon3" src="img/localition.svg" alt="">
+            </div>
+            <div class="info-container">
+              <h3>Company Address</h3>
+              <p>Responsive Street 7 <br>
+                London / United Kingdom / Europe</p>
+            </div>
+          </div>
+
+          <div class="footer-container p-3">
+            <div class="w-100 footer-bottom ">
+              <img class="icon3" src="img/email.svg" alt="">
+            </div>
+            <div class="info-container">
+              <h3>E-mail</h3>
+              <p>contact@sampledomain.com <br>
+                office@sampledomain.com
+              </p>
+            </div>
+          </div>
+
+          <div class="footer-container p-3">
+            <div class="w-100 footer-bottom ">
+              <img class="icon3" src="img/phone.svg" alt="">
+            </div>
+            <div class="info-container">
+              <h3>Phone Numbers</h3>
+              <p>0800 4521 800 50 <br>
+                0450 5896 625 16 <br>
+                0798 6546 465 15
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------- -->
+        <div class="foot-footer">
+          <p>Copyright 2019, Vision Design - graphic zoo</p>
+          <p>All images have been purchased from Bigstock. Do not use the images in your website.
+          </p>
+        </div>
+        
+        <div class="foot-footer d-flex justify-content-end">
+          <a href="">Design and coding<br>by Responsee Team</a>
+        </div>
+        </div>
+      </section>
+
+
+
+      <section class="testimonial-width">
+        <div>
+          <h2 class="text-center testimonial">Testimonials</h2>
+          <hr />
+        </div>
+        <sdiv class="container contenedor-slider">
+          <div class="row">
+            <div class="col">
+              <input type="radio" name="slides" id="radio1" checked>
+              <input type="radio" name="slides" id="radio2">
+              <input type="radio" name="slides" id="radio3">
+              <ul class="slides">
+                <li class="slide">
+                  <p>
+                    <span class="autor">
+                      <img src="img/testimonials-04.png">
+                      <q>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse<br> molestie consequat,
+                        vel illum dolore eu feugiat nulla facilisis</q>
+                      <cite>Scott Star / CEO / Company</cite>
+                    </span>
+                  </p>
+                </li>
+                <li class="slide">
+                  <p>
+                    <span class="autor">
+                      <img src="img/testimonials-05.png">
+                      <q>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse<br> molestie consequat,
+                        vel illum dolore eu feugiat nulla facilisis</q>
+                      <cite>Mark Stoner / Web Developer / Company</cite>
+                    </span>
+                  </p>
+                </li>
+                <li class="slide">
+                  <p>
+                    <span class="autor">
+                      <img src="img/testimonials-06.png">
+                      <q>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse<br> molestie consequat,
+                        vel illum dolore eu feugiat nulla facilisis</q>
+                      <cite>Jane Naismith / Web Designer / Company</cite>
+                    </span>
+                  </p>
+                </li>
+              </ul>
+              <div class="navigation">
+                <label for="radio1" id="radioSelect1"></label>
+                <label for="radio2" id="radioSelect2"></label>
+                <label for="radio3" id="radioSelect3"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
