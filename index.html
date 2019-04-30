@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
   <head>
     <meta charset="UTF-8" />
@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
     <!-- banderilla de la derecha -->
-    <a href="" style="position:fixed;top:120px;right:0px;z-index:10;"><img src="img/premium-features.png"
+    <a href="" class="premium-features" ><img src="img/premium-features.png"
         alt="premium features"></a>
     <!-- logo de la pagina -->
     <header class="fix-position">
@@ -140,8 +141,8 @@
         </div>
       </header>
       <!-- empieza card -->
-      <section class="m-3 p-2 row">
-        <div class="card card-wrapper m-1 p-4 text-center d-flex align-items-center ">
+      <section class=" my-5 p-2 row d-flex justify-content-around">
+        <div class="card card-wrapper mt-3 p-4 text-center d-flex align-items-center ">
           <img src="img/shield.svg" class="card-img-top " alt="..." />
           <div class="card-body">
             <h2 class="card-title h2-card">Unlimited Color Variants</h2>
@@ -153,7 +154,7 @@
             <a href="#" class="btn btn-outline-dark rounded-0 btn-card">GET MORE INFO</a>
           </div>
         </div>
-        <div class="card card-wrapper m-1 p-4 text-center d-flex align-items-center ">
+        <div class="card card-wrapper mt-3 p-4 text-center d-flex align-items-center ">
           <img src="img/umbrella.svg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h2 class="card-title h2-card">Parallax Background</h2>
@@ -165,7 +166,7 @@
             <a href="#" class="btn btn-card btn-outline-dark rounded-0">GET MORE INFO</a>
           </div>
         </div>
-        <div class="card card-wrapper m-1 p-4 text-center d-flex align-items-center">
+        <div class="card card-wrapper mt-3 p-4 text-center d-flex align-items-center">
           <img src="img/home.svg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h2 class="card-title h2-card">Clean Modern Code</h2>
@@ -209,45 +210,70 @@
 
         <div class="contenedor-aboutus">
           <div class="row">
-            <div class="col-lg-6">
-              <img src="img/img-12.jpg" alt="" />
+            <div class="col-lg-6 ">
+              <img src="img/img-12.jpg"alt="" />
             </div>
+
             <div class="p-5 col-lg-6">
 
-              <div class="p-1">
-                <div>
-                  <img class="icon3 p-1 ml-1" src="img/drop.svg" alt="" />
+              <div class="row">
+                  <div class="col-12 col-sm-3 p-0 icon3">
+                    <div class="card border-0"> 
+                      <div class="card-body p-0">
+                          <img src="img/drop.svg" class="card-img-top" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 p-0">
+                    <div class="card border-0">
+                      <div class= "card-body wrapper-about">
+                          <h3 class="h3-about">Unlimited Color Variants</h3>
+                          <p class="p-about">
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                            esse molestie consequat.
+                            <br>
+                            Vel illum dolore eu feugiat nulla facilisis.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="sect-about">
-                  <h3 class="h3-about">Unlimited Color Variants</h3>
-                  <p class="p-about">
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-                    esse molestie consequat.
-                    <br>
-                    Vel illum dolore eu feugiat nulla facilisis.
-                  </p>
-                </div>
-              </div>
 
-              <div class="p-1">
-                <div>
-                  <img class="icon3 p-1 ml-1" src="img/smarthphone.svg" alt="" />
-                </div>
-                <div class="sect-about">
-                  <h3 class="h3-about">Responsive Layoute</h3>
-                  <p class="p-about">
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-                    esse molestie consequat.
-                  </p>
-                </div>
-              </div>
 
-              <div class="p-1">
-                <div>
-                  <img class="icon3  p-1 ml-1" src="img/heart.svg" alt="" />
+                <div class="row">
+                  <div class="col-12 col-sm-3 p-0 icon3">
+                    <div class="card border-0"> 
+                      <div class="card-body p-0">
+                          <img src="img/smarthphone.svg" class="card-img-top" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 p-0">
+                    <div class="card border-0">
+                      <div class= "card-body wrapper-about">
+                        <h3 class="h3-about">Responsive Layoute</h3>
+                        <p class="p-about">
+                          Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                          esse molestie consequat.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="sect-about">
-                  <h3 class="h3-about">Clean Minimalistic Design</h3>
+
+              
+                <div class="row">
+                  <div class="col-12 col-sm-3 p-0 icon3">
+                    <div class="card border-0"> 
+                      <div class="card-body p-0">
+                          <img src="img/heart.svg" class="card-img-top" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 p-0">
+                    <div class="card border-0">
+                      <div class= "card-body wrapper-about">
+                        <h3 class="h3-about">Clean Minimalistic Design</h3>
                   <p class="p-about">
                     Duis autem vel eum iriure dolor in hendrerit in vulputate velit
                     esse molestie consequat.
@@ -255,35 +281,55 @@
                     Vel illum dolore eu feugiat nulla
                     facilisis.
                   </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-
-              <div class="p-1">
-                <div>
-                  <img class="icon3  p-1 ml-1" src="img/chart.svg" alt="" />
-                </div>
-                <div class="sect-about">
-                  <h3 class="h3-about">Tons of Animated Elements</h3>
+              
+                <div class="row">
+                  <div class="col-12 col-sm-3 p-0 icon3">
+                    <div class="card border-0"> 
+                      <div class="card-body p-0">
+                          <img src="img/chart.svg" class="card-img-top" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 p-0">
+                    <div class="card border-0">
+                      <div class= "card-body wrapper-about">
+                        <h3 class="h3-about">Tons of Animated Elements</h3>
                   <p class="p-about">
                     Duis autem vel eum iriure dolor in hendrerit in vulputate velit
                     esse molestie consequat.
                   </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
 
-              <div class="p-1">
-                <div>
-                  <img class="icon3  p-1 ml-1" src="img/globe.svg" alt="" />
-                </div>
-                <div class="sect-about">
-                  <h3 class="h3-about">And many more...</h3>
+              
+                <div class="row">
+                  <div class="col-12 col-sm-3 p-0 icon3">
+                    <div class="card border-0"> 
+                      <div class="card-body p-0">
+                          <img src="img/globe.svg" class="card-img-top" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-9 p-0">
+                    <div class="card border-0">
+                      <div class= "card-body wrapper-about">
+                        <h3 class="h3-about">And many more...</h3>
                   <p class="p-about">
                     Nam liber tempor cum soluta nobis eleifend. Duis autem vel eum
                     iriure dolor in hendrerit in vulputate velit esse molestie
                     consequat.
                   </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              
 
             </div>
           </div>

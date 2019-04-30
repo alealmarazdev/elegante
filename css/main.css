@@ -2,6 +2,25 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+::-webkit-scrollbar{
+	width: 8px;
+  border-radius: 5px;
+  background-color:#F5F5F5;
+ 
+
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #555
+}
+
+body .premium-features{
+  visibility: hidden;
+  position:fixed;
+  top:120px;
+  right:0px;
+  z-index:10; 
+}
 /* inicia header de la pagina */
 /* logo de la pagina  */
 header .img-titulo {
@@ -58,10 +77,15 @@ main header .bd-example .carousel-inner .carusel-item {
   position: relative;
   width: 50px;
 }
+main header .bd-example .carousel-inner .carousel-item img {
+  height: 80vh 
+  
+
+}
 
 main header .bd-example .carousel-inner .carousel-caption {
-  margin-top: 80px;
-  margin-bottom: 80px;
+
+  margin-top: auto;
   padding: 0 2rem;
   position: absolute;
   left: 0;
@@ -153,7 +177,7 @@ main section.about-us .contenedor-aboutus img {
   display: block;
   height: auto;
   max-width: 100%;
-  width: auto;
+  /* width: auto; */
   box-sizing: border-box;
   margin: 0;
   margin-top: 73px;
@@ -166,6 +190,10 @@ main section.about-us .contenedor-aboutus .icon3 {
   margin-bottom: 36px;
   margin-top: 10px;
 
+}
+main section.about-us .contenedor-aboutus .icon3 img{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main section.about-us .contenedor-aboutus .sect-about {
@@ -183,7 +211,7 @@ main section.about-us .contenedor-aboutus .sect-about h3.h3-about {
   color: #000;
 }
 
-/* -empieza section about us- */
+/* termina section about us- */
 /* -empieza section stats- */
 
 main section.stats .row-OurStats {
@@ -404,12 +432,16 @@ footer .sin.pie-pagina {
   }
 
   main section .card.card-wrapper {
-    width: 32%;
+    width: 30%;
   }
 
 }
 
 @media screen and (min-width: 900px) {
+  body .premium-features{
+    visibility: visible;
+    
+  }
   header .img-titulo {
     width: 200px;
     top: 12px;
@@ -431,7 +463,12 @@ footer .sin.pie-pagina {
     font-size: 0.85rem;
     padding: 24px;
   }
-
+  main header .bd-example .carousel-inner .carousel-item img {
+      
+     height: 100vh ; 
+     width: 100vw;
+   } 
+   
   main header .bd-example .carousel-inner .carousel-caption h1 {
     width: 80vw;
   }
@@ -442,6 +479,27 @@ footer .sin.pie-pagina {
 
   main header .bd-example .carousel-inner .carousel-caption button {
     width: 20vw;
+  }
+
+  main section.about-us .contenedor-aboutus .icon3 {
+    max-width: 8%; 
+    height: auto;
+    float: left;
+    margin-bottom: auto;
+    margin-top: auto;
+  
+  }
+
+
+  main section.about-us .contenedor-aboutus .icon3 img{
+    
+    margin-bottom: auto;
+    margin-top: auto;
+  
+  }
+
+  main section.about-us .contenedor-aboutus   .wrapper-about{
+    padding-left: 5%
   }
 
   main section.stats .row-OurStats {
