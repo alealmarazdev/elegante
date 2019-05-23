@@ -48,9 +48,9 @@ header nav .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item 
 
 /* termina head */
 /* empieza main */
-main section {
+/* main section {
   padding: 6rem 1.25rem;
-}
+} */
 
 main section div h2 {
   font-size: 50px;
@@ -119,7 +119,10 @@ main header .bd-example .carousel-inner .carousel-caption button {
 /* termina carrusel principal  */
 /* termina head de main */
 /* empiezan  cards */
-
+main section.cards-container {
+  padding: 6rem 1.25rem;
+  border-bottom: #555 1px solid;
+}
 main section .card.card-wrapper {
   width: 100%;
 }
@@ -153,6 +156,7 @@ main section .card .card-body .btn-card {
 
 main section.about-us {
   padding: 6rem 1.25rem;
+  border-bottom: #555 1px solid;
 }
 
 main section.about-us h4.high-title {
@@ -213,6 +217,9 @@ main section.about-us .contenedor-aboutus .sect-about h3.h3-about {
 
 /* termina section about us- */
 /* -empieza section stats- */
+main section.stats  {
+ border-bottom: #555 1px solid
+}
 
 main section.stats .row-OurStats {
   width: 90%;
@@ -241,11 +248,17 @@ main section.stats .row-OurStats .wrapper-stats .description-stats {
 
 /* -termina section stats- */
 /* -empieza section work- */
+main section.work {
+  display: flex;
+  flex-direction: column;
+  border-bottom: #555 1px solid
+
+}
 
 main section.work .nav-pills .nav-item .nav-link {
   width: 90vw;
   height: 42px;
-  padding: 0.625rem 1.25rem;
+  /* padding: 0.625rem 1.25rem; */
   margin: 2px 0;
   font-size: 16px;
   border: none;
@@ -308,7 +321,9 @@ main section.work .portafolio-item:hover .portafolio-image {
 
 /* -termina section work- */
 /* -empieza section testimonios- */
-
+main section.testimonial{
+  height: calc(100vh - 80px);
+}
 main section.testimonial .carousel .carousel-inner .carousel-item q {
   max-width: 100%;
   margin: 0;
@@ -508,7 +523,8 @@ footer .sin.pie-pagina {
   }
 
   main section.work .nav-pills {
-    justify-content: center
+    width: 100%;
+    justify-content: center;
   }
 
   main section.work .nav-pills .nav-item .nav-link {
