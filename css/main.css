@@ -78,7 +78,7 @@ main header .bd-example .carousel-inner .carusel-item {
   width: 50px;
 }
 main header .bd-example .carousel-inner .carousel-item img {
-  height: 80vh 
+  height: 80vh;
 }
 
 main header .bd-example .carousel-inner .carousel-caption {
@@ -331,7 +331,7 @@ main section.work .portafolio-item:hover .portafolio-image {
 /* -termina section work- */
 /* -empieza section testimonios- */
 main section.testimonial{
-  height: calc(80vh - 100px);
+  height: 100%;
   margin: 100px 0;
 }
 main section.testimonial .carousel .carousel-inner .carousel-item q {
@@ -529,7 +529,7 @@ footer .sin.pie-pagina {
   }
   main header .bd-example .carousel-inner .carousel-item img {
       
-     height: 99vh ; 
+     height: 99% ; 
      width: 100vw;
    } 
    
@@ -624,7 +624,7 @@ main section.testimonial .carousel .carousel-indicators {
 }
 
 main section.testimonial{
-  margin: 10px 0;
+  margin: 9% 0;
 }
 footer .container-footer{
    
