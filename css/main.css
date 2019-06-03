@@ -78,7 +78,7 @@ main header .bd-example .carousel-inner .carusel-item {
   width: 50px;
 }
 main header .bd-example .carousel-inner .carousel-item img {
-  height: 80vh;
+  min-height: 80vh;
 }
 
 main header .bd-example .carousel-inner .carousel-caption {
