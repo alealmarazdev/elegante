@@ -494,10 +494,6 @@ footer .sin.pie-pagina {
     width: 250px;
   }
 
-  main section .card.card-wrapper {
-    width: 30%;
-  }
-
 }
 
 @media screen and (min-width: 900px) {
@@ -549,6 +545,11 @@ main section.cards-container {
   padding: 5rem 90px;
   /* border-bottom: #555 1px solid; */
 }
+
+  main section .card.card-wrapper {
+    width: 30%;
+  }
+  
   main section.about-us {
         margin: 0 1rem;
         padding: 0;
